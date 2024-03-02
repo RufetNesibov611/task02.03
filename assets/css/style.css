@@ -1,0 +1,49 @@
+.sliders{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.active-image{
+    opacity: 1 !important;
+}
+
+.icon-left{
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(174, 169, 169);
+    color: black;
+    z-index: 2;
+    margin-top: 120px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.icon-left i:hover{
+    background-color: black;
+    color:  rgb(174, 169, 169);
+}
+.icon-right{
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(174, 169, 169);
+    color: black;
+    z-index: 1;
+    margin-top: 120px;
+    margin-left: 560px;
+    cursor: pointer;
+}
+.icon-right i:hover{
+    background-color: black;
+    color:  rgb(174, 169, 169);
+}
+
+.sliders .images img{
+    height: 100%;
+    width: 100%;
+}
